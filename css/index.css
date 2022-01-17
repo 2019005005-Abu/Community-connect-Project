@@ -1,0 +1,118 @@
+*{
+margin: 0;
+padding: 0;
+}
+.h_1{
+	color: black;
+	background: red;
+	text-align: center;
+	padding: 10px 20px;
+}
+.h_1:hover{
+	color: azure;
+	background: white;
+}
+.im_1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  border-radius: 16%;
+  padding:10px 20px; 
+	
+}
+
+.s_1,.s_2,.s_3{
+  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+.s_1{
+	width:500px;
+	
+}
+.im_2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  padding:10px 20px; 
+  color: red;
+}
+h4,h3{
+	color: black;
+	text-align: center;
+}
+
+.logo{
+	display: block;
+}
+h6{
+	color: gray;
+	text-align: center;
+}
+.h_1{
+	color:black;
+	background: grey;
+}
+.h_1:hover{
+	color:blueviolet;
+	background: yellow;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #212529;
+  overflow: hidden;
+  margin-top: -10px;
+  padding: 10px 20px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04aa52a6;
+  color: white;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+/* Other Classes for Page Styling */
+
+body {
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+.container{
+  box-sizing: border-box;;
+}
+.div_1{
+	background:#E0FF1D;
+	color: gray;
+}
+
+

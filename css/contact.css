@@ -1,0 +1,73 @@
+.h_1{
+	text-align: center;
+	color: aliceblue;
+	padding: 10px 20px;
+}
+p{
+	text-align: justify;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #212529;
+  overflow: hidden;
+  margin-top: -10px;
+ padding: 10px 20px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+/* Other Classes for Page Styling */
+
+body {
+  background: #007bff;
+  background: linear-gradient(to right, #212529, #f2f2f2);
+}
+li{
+	list-style-type: none;
+}
+li a{
+	text-decoration: none;
+	font-weight: bolder;
+	float: left;
+	margin: 20px;
+	font-size:24px;
+}
+li a:hover{
+	color: black;
+}
+fieldset{
+	width: 500px;
+	height: 500px;
+	padding: 10px 20px;
+	margin: 0 auto;
+	background: #05516047;
+}
